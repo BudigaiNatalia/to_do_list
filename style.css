@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+.title{
+    color: white;
+}
+
+.input_container {
+    border-radius: 10px;
+    height: 100px;
+    width: 50%;
+    position: relative;
+    background-color: #020101;
+    padding: 0px 20px;
+    margin-top: 10px;
+    align-items:center ;
+
+
+
+}
+.list_container{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: rgba(37, 46, 66, 0.45);
+    height: 40px;
+    width : 50%;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
